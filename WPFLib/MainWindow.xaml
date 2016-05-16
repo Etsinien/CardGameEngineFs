@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFLib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="ToolWindow">
+        Title="MainWindow" Height="800" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="ToolWindow">
     <Grid>
         
     </Grid>
