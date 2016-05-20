@@ -20,12 +20,12 @@ type Card =
     | Stack of int
 
 type GlobalGamestate() =
+    
     let mutable currentPlayer as Players = Players.First
     let nextPlayer =
         currentPlayer <- enum<Players>(((int)currentPlayer + 1) % 3)
     let mutable currentGamePhase as GamePhase = GamePhase.Prepare
     let nextGamePhase =
         currentGamePhase <- enum<GamePhase>(((int)currentGamePhase + 1) % 3)
-        
-
+    //let drawCard() =
         
