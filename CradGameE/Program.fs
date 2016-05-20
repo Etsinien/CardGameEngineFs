@@ -10,6 +10,6 @@ open Command
 [<EntryPoint>]
 let main argv = 
     let window = WPFLib.MainWindow()
-    // |> Async.Start 
-    Command.timer |> Async.Start
+    // Business Logic should be in Command, here just UI related methods
+    Command.tick |> Async.Start
     Application().Run(window)
