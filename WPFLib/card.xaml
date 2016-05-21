@@ -7,7 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="250" d:DesignWidth="200">
     <Grid>
-        <Grid Background="#FFF5E0BC"/>
+        <Grid x:Name="CardGrid" Background="#FFF5E0BC">
+            <Image x:Name="IMG" x:FieldModifier="public"/>
+        </Grid>
 
     </Grid>
 </UserControl>

@@ -20,8 +20,12 @@ namespace WPFLib
     /// </summary>
     public partial class card : UserControl
     {
+        string fileName = "templ_1c.png";
         public card()
         {
+            BitmapImage image = new BitmapImage(new Uri(@"\Assets\" + fileName, UriKind.RelativeOrAbsolute));
+            IMG.Source = image;
+
             InitializeComponent();
         }
     }
